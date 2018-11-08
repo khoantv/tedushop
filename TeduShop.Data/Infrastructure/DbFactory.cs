@@ -9,7 +9,7 @@
 
         public TeduShopDbContext Init()
         {
-            return dbContext ?? (dbContext = new TeduShopDbContext())
+            return dbContext ?? (dbContext = new TeduShopDbContext());
         }
 
         protected override void DisposeCore()
