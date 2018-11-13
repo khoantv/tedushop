@@ -18,7 +18,6 @@ namespace TeduShop.Service
 
         IEnumerable<Post> GetAllPaging(int page, int pageSize, out int totalRow);
         IEnumerable<Post> GetAllByCategoryPaging(int categoryId, int page, int pageSize, out int totalRow);
-
         IEnumerable<Post> GetAllByTagPaging(string tag, int page, int pageSize, out int totalRow);
 
         Post GetById(int id);
